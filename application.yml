@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev    #開發環境
+  application:
+    name: microservicecloud-config-kyocoolcool-dev
+---
+spring:
+  profiles: test   #測試環境
+  application:
+    name: microservicecloud-config-kyocoolcool-test
+#請保存為UTF-8格式
